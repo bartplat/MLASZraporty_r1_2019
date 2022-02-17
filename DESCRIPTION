@@ -1,0 +1,28 @@
+Package: MLASZraporty_r1_2019
+Title: Pakiet zawierający szablony raportów dla 1. rundy monitoringu w projekcie MLASZ
+Version: 0.1.0
+Authors@R: c(
+  person("Tomasz", "Żółtak", email = "t.zoltak@ibe.edu.pl", role = c("aut", "cre")),
+  person("Bartłomiej", "Płatkowski", email = "b.platkowski@ibe.edu.pl", role = c("aut")))
+Description: Pakiet zawierający szablony raportów dla 1. rundy monitoringu,
+    które wykorzystywane są przez silnik raportowania z pakiety MLASZraporty.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 4.0.3),
+    dplyr (>= 0.7.8),
+    MLASZraporty (>= 0.2.0)
+Imports:
+    rlang (>= 0.3.1),
+    tibble (>= 2.0.1),
+    tidyr (>= 0.8.2),
+    ggplot2 (>= 3.1.0),
+    knitr (>= 1.21),
+    kableExtra (>= 1.0.1),
+    rmarkdown (>= 2.11.3)
+Suggests:
+    MLASZdane (>= 0.4.1),
+    testthat,
+    covr
+RoxygenNote: 7.1.1
